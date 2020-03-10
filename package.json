@@ -1,0 +1,15 @@
+{
+  "name": "svg-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "svgpi ./config.json ./input/target.svg ./output/coordinates.json && node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "svg-path-interpolator": "^0.2.5"
+  }
+}
